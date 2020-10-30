@@ -17,7 +17,7 @@ const HeaderMain = () => {
                                 "hideWhenDone": true,
                                 "hideWhenDoneDelay": 0
                             }}>
-                                <span> Fontend Web </span>
+                                <span> Frontend Web </span>
                                 <Typist.Backspace count={8} delay={500} />
                                 <span>end Web Developer </span>
                             </Typist>

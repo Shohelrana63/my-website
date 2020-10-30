@@ -1,6 +1,7 @@
 import React from 'react';
 import baig1 from '../../../images/baig/baig.png';
 import { Link } from "react-router-dom";
+import Typist from 'react-typist';
 import './HeaderMain.css';
 const HeaderMain = () => {
     return (
@@ -10,7 +11,17 @@ const HeaderMain = () => {
                     <div className="col-md-6 my-5">
                         <h5 style={{ color: '#e9af1d' }}>Hi, I'm</h5>
                         <h1 className="" style={{ fontSize: "60px" }}>Shohel Rana</h1>
-                        <h3 style={{ color: '#e9af1d' }} className="mb-4">Fontend Web Developer</h3>
+                        <h3 style={{ color: '#e9af1d' }} className="mb-4">
+
+                            <Typist cursor={{
+                                "hideWhenDone": true,
+                                "hideWhenDoneDelay": 0
+                            }}>
+                                <span> Fontend Web </span>
+                                <Typist.Backspace count={8} delay={500} />
+                                <span>end Web Developer </span>
+                            </Typist>
+                        </h3>
                         <div class="social mt-4">
                             <div class="social-menu d-flex justify-content-center">
                                 <ul>
@@ -32,7 +43,7 @@ const HeaderMain = () => {
                     <div className="col-md-6 my-3">
                         <img
                             className="img-fluid mx-5 "
-                            // src={baig}
+
                             style={{ height: "400px", width: "400px", borderRadius: '50%', boxSizing: 'border-box', padding: '10px' }}
                             src={baig1}
                             alt="/"

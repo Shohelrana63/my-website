@@ -1,0 +1,8 @@
+.navbar-brand:hover h1 {
+    border-bottom: 3px solid #e9af1d;
+    color: #e9af1d!important;
+}
+.nav-link:hover {
+    border-bottom: 3px solid #e9af1d;
+    color: #e9af1d!important;
+}

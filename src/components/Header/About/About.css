@@ -1,0 +1,25 @@
+
+/* body{
+    background-color:#212529;
+} */
+.my-pic img{
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills span{
+    background: #e9af1d;
+    color: black!important;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 20px;
+    
+}
